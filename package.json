@@ -9,13 +9,15 @@
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "live": "live-server ./dist -o"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "laravel-mix": "^4.0.14",
+    "live-server": "^1.2.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.1",
     "vue-template-compiler": "^2.6.3"
