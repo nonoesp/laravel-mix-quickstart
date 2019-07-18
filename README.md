@@ -3,7 +3,7 @@ Get up and running with HTML, SCSS, and TypeScript in seconds.
 
 ## Usage
 
-```
+```bash
 # Install npm dependencies
 npm install
 # Start building the app and watching for changes
