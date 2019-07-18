@@ -7,6 +7,10 @@ html, body {
     color: #222;
 }
 
+.o-wrap {
+    max-width: 500px;
+}
+
 .grasp {
     color: $color;
     font-family: system-ui;
@@ -19,6 +23,10 @@ html, body {
 
 .u-fade {
     opacity: 0.5;
+}
+
+.u-fade-two {
+    opacity: 0.8;
 }
 
 a {
