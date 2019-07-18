@@ -1,5 +1,12 @@
 $color: rgba(0, 0, 0, 0.8);
 
+html, body {
+    // margin: 0;
+    // padding: 0;
+    font-family: system-ui, sans-serif;
+    color: #222;
+}
+
 .grasp {
     color: $color;
     font-family: system-ui;
@@ -8,4 +15,12 @@ $color: rgba(0, 0, 0, 0.8);
 
 .bowl {
     color: $color;
+}
+
+.u-fade {
+    opacity: 0.5;
+}
+
+a {
+    color: #222;
 }
